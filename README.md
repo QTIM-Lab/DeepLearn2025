@@ -9,15 +9,12 @@ The code aims to learn demographics from retinal fundus images using deep learni
 The code is organized as follows:
 
 - `feature_extraction`: folder with code to extract features from the retinal fundus images using RETFound. For convenience, the features are already available in the `features` folder.
+    - `extract_retfound_features.ipynb`: notebook to extract the RETFound features from the raw images - Colab version [here](https://drive.google.com/file/d/1uAZ7SOPxHSl2g0U6pm8Ht530GUgTo4Hd/view?usp=sharing)
 - `demographics_prediction`: folder with code to train models to predict the demographics:
-    - `Age_from_CFP.ipynb`: notebook to train a model to predict the age from the CFP images - Colab version [here](https://colab.research.google.com/drive/1U4IIbNoWM7X8ENsr3CrYfx6_0TL0p4I1?usp=sharing)
+    - `demographics_resnet.ipynb`: notebook to train a model to predict the age from the CFP images - Colab version [here](https://drive.google.com/file/d/11IIWWg_rwYkKGJ3FzrRPcid0Erqq5Tgu/view?usp=sharing)
     - `demographics_RETFound_features.ipynb`: notebook to train a model to predict the demographics from the RETFound features - Colab version [here](https://drive.google.com/file/d/1OLB6L5m5Utjk6ZC-oUBuRRnXc4dSI6UO/view?usp=sharing)
 
+Already trained models are available in the `results` folder, downloadable [here]() as a zip file.
 
-## Setup
-
-1. Clone the repository
-2. Install the dependencies
-3. Run the code
-
-## Usage
+To download, run:
+`gdown https://drive.google.com/uc?id=1c0MXiUnsxstsIK0ETjD1ZBs9iU_kryHy`

@@ -1,0 +1,5 @@
+ODIR-5K/
+preprocessed_images/
+*.zip
+*.pth
+results/

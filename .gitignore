@@ -1,5 +1,5 @@
 ODIR-5K/
 preprocessed_images/
 *.zip
-*.pth
+RETFound_cfp_weights.pth
 results/
